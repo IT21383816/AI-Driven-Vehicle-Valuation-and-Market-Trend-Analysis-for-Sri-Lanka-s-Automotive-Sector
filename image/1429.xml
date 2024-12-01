@@ -1,0 +1,26 @@
+<annotation>
+	<folder>image</folder>
+	<filename>1429.jpeg</filename>
+	<path>C:\Users\neth pc\Desktop\research\archive (1)\image\1429.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>224</width>
+		<height>224</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>door_dent</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>43</xmin>
+			<ymin>49</ymin>
+			<xmax>167</xmax>
+			<ymax>177</ymax>
+		</bndbox>
+	</object>
+</annotation>
