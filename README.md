@@ -43,9 +43,10 @@ A web app for AI-driven vehicle valuation in Sri Lanka, featuring automated vehi
 - IT21177682: Individual branch for specific features.(Market Trend Analysis with Price Prediction and Personalized Recommendation for Vehicle Suggestions)
 - IT21927720: Individual branch for specific features.(Sustainable and Eco-Friendly Vehicle Analysis)
 
-- **Merges:**
+- **System Overview Diagram**
 
 
+![System DiagramNew drawio](https://github.com/user-attachments/assets/633a090e-f644-4d7f-ada2-d1d0cc81baee)
 
 
 
