@@ -2,7 +2,7 @@
 A web app for AI-driven vehicle valuation in Sri Lanka, featuring automated vehicle identification, damage detection, market trend analysis, and environmental sustainability insights.
 
 ### Key Features:
-- **Automated Vehicle Identification**: Detect vehicle types and key details from images/videos.
+- **Automated Vehicle Identification**: Detect vehicle types and key details from images.
 - **Damage Detection**: Utilize image processing to identify vehicle damages and estimate repair costs.
 - **Market Trend Analysis**: Analyze historical and real-time data for predicting market trends.
 - **Eco-Friendly Analysis**: Provide insights on sustainable and eco-friendly vehicle options.
