@@ -46,7 +46,8 @@ A web app for AI-driven vehicle valuation in Sri Lanka, featuring automated vehi
 - **System Overview Diagram**
 
 
-![System DiagramNew drawio](https://github.com/user-attachments/assets/633a090e-f644-4d7f-ada2-d1d0cc81baee)
+
+![System DiagramNew1 drawio](https://github.com/user-attachments/assets/e2e123c4-5c7b-49e5-aae3-87f647cfa0cd)
 
 
 
