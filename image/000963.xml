@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train2017</folder>
+	<filename>000963.jpg</filename>
+	<path>D:\Downloads\CarDD_release\CarDD_release\CarDD_COCO\train2017\000963.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1000</width>
+		<height>734</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>door_dent</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>93</xmin>
+			<ymin>64</ymin>
+			<xmax>901</xmax>
+			<ymax>656</ymax>
+		</bndbox>
+	</object>
+</annotation>
