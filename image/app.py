@@ -1,8 +1,12 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 import tensorflow as tf
 import numpy as np
 from PIL import Image
+import pandas as pd
+from geopy.distance import geodesic
+import folium
+import os
 
 # Initialize Flask application
 app = Flask(__name__)
@@ -25,6 +29,9 @@ damage_types = [
 
 # Define a confidence threshold for predictions
 CONFIDENCE_THRESHOLD = 0.6
+
+# Load repair shop data (CSV should have a 'Services' column)
+repair_shops = pd.read_csv("repair_shops.csv")
 
 @app.route('/predict', methods=['POST'])
 def predict():
@@ -60,8 +67,6 @@ def predict():
         # Predict repair cost using the second model
         estimated_cost = repair_cost_model.predict(repair_cost_input).flatten()[0]
 
-
-        
         # Prepare the response
         response = {
             'predicted_damage': predicted_damage,
@@ -76,6 +81,70 @@ def predict():
         # Return error if something goes wrong
         return jsonify({'error': str(e)}), 500
 
+@app.route('/recommend_repair', methods=['POST'])
+def recommend_repair():
+    try:
+        data = request.json
+        user_location = (data["latitude"], data["longitude"])
+
+        print("Received Data:", data)  # Debugging
+
+        # Ensure Latitude & Longitude are numeric
+        repair_shops["Latitude"] = pd.to_numeric(repair_shops["Latitude"], errors="coerce")
+        repair_shops["Longitude"] = pd.to_numeric(repair_shops["Longitude"], errors="coerce")
+        repair_shops.dropna(subset=["Latitude", "Longitude"], inplace=True)
+
+        # Calculate distance for all repair shops
+        repair_shops["distance"] = repair_shops.apply(
+            lambda row: geodesic(user_location, (row["Latitude"], row["Longitude"])).km, axis=1
+        )
+
+        # Get the 3 nearest shops
+        nearest_shops = repair_shops.sort_values(by="distance").head(3)
+
+        # Select only necessary fields
+        filtered_shops = nearest_shops[["name", "addr:city", "Latitude", "Longitude", "distance"]]
+
+        return jsonify(filtered_shops.to_dict(orient="records"))
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/generate_map', methods=['GET'])
+def generate_map():
+    """Generate an interactive map of repair shops and return the HTML file."""
+    try:
+        # Create a map centered at a default location (e.g., Malabe, Sri Lanka)
+        m = folium.Map(location=[6.9149, 79.9736], zoom_start=10)
+
+        # Add repair shops as markers
+        for _, row in repair_shops.iterrows():
+            folium.Marker(
+                [row["Latitude"], row["Longitude"]],
+                popup=row.get("name", "Unknown Shop"),
+                tooltip=row.get("name", "Unknown Shop"),
+                icon=folium.Icon(color="blue", icon="wrench", prefix="fa")
+            ).add_to(m)
+
+        # Save map to the 'templates' directory
+        map_path = os.path.join("templates", "repair_shops_map.html")
+        m.save(map_path)
+
+        return jsonify({"message": "Map generated successfully!", "map_url": "/map"})
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/map', methods=['GET'])
+def view_map():
+    """Serve the generated map."""
+    return render_template("repair_shops_map.html")
+
+
+
 if __name__ == '__main__':
     # Run the Flask application
+    if not os.path.exists("templates"):
+        os.makedirs("templates")
     app.run(debug=True)

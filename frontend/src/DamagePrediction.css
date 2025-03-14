@@ -1,0 +1,132 @@
+/* General layout */
+body {
+    background: linear-gradient(
+      to right, 
+      rgba(0, 0, 0, 0.7),  /* Dark transparent shade */
+      rgba(0, 128, 0, 0.5)  /* Green transparent shade */
+    );
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+.damage-prediction-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Side Navigation Bar */
+.side-nav {
+    width: 250px;
+    background-color: #30d158;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    height: 100%;
+}
+
+.side-nav h2 {
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.side-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-nav ul li {
+    margin: 10px 0;
+}
+
+.side-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.side-nav ul li a:hover {
+    color: #c2f0c2;
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.header .logo {
+    width: 100px;
+    height: auto;
+}
+
+.upload-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.upload-form input {
+    margin-bottom: 10px;
+}
+
+.upload-form button {
+    background-color: #30d158;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-form button:hover {
+    background-color: #30d158;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+}
+
+.image-preview-section img,
+.prediction-result-section img {
+    max-width: 100%;
+    border: 2px solid #30d158;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.prediction-result-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Optional: A more stylish gradient background */
+.body-container {
+    background: linear-gradient(
+      to right, 
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 128, 0, 0.5)
+    );
+    backdrop-filter: blur(15px);
+    min-height: 100vh;
+    padding: 20px;
+  }

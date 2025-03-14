@@ -1,0 +1,3490 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_903a54c75dcc6107af5137bbfa2db058 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_903a54c75dcc6107af5137bbfa2db058" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_903a54c75dcc6107af5137bbfa2db058 = L.map(
+                "map_903a54c75dcc6107af5137bbfa2db058",
+                {
+                    center: [6.9149, 79.9736],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_86f02b00bd0d5d0d1a2c898713a01bc0 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_86f02b00bd0d5d0d1a2c898713a01bc0.addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var marker_2a44a53c1fab6f649e1247f626c596b1 = L.marker(
+                [6.9148709, 79.8573473],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_b53e5937bbdb0a0256517f8df437c93f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2a44a53c1fab6f649e1247f626c596b1.setIcon(icon_b53e5937bbdb0a0256517f8df437c93f);
+        
+    
+        var popup_584459953800c936a3ce1e52563e8526 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f862cd08e5828cfc55c160ab264ab82a = $(`<div id="html_f862cd08e5828cfc55c160ab264ab82a" style="width: 100.0%; height: 100.0%;">SPREYMECH</div>`)[0];
+                popup_584459953800c936a3ce1e52563e8526.setContent(html_f862cd08e5828cfc55c160ab264ab82a);
+            
+        
+
+        marker_2a44a53c1fab6f649e1247f626c596b1.bindPopup(popup_584459953800c936a3ce1e52563e8526)
+        ;
+
+        
+    
+    
+            marker_2a44a53c1fab6f649e1247f626c596b1.bindTooltip(
+                `<div>
+                     SPREYMECH
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7865f233a9484cd56490a8c99c8529c8 = L.marker(
+                [6.9476402, 79.8806883],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_035d35504d9f24e44f12259220c2e7e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7865f233a9484cd56490a8c99c8529c8.setIcon(icon_035d35504d9f24e44f12259220c2e7e7);
+        
+    
+        var popup_e25f8492f440b8958871dc774debb4e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9fce81d2df455e71ad695a11d4ab0afc = $(`<div id="html_9fce81d2df455e71ad695a11d4ab0afc" style="width: 100.0%; height: 100.0%;">United Motors Garage</div>`)[0];
+                popup_e25f8492f440b8958871dc774debb4e2.setContent(html_9fce81d2df455e71ad695a11d4ab0afc);
+            
+        
+
+        marker_7865f233a9484cd56490a8c99c8529c8.bindPopup(popup_e25f8492f440b8958871dc774debb4e2)
+        ;
+
+        
+    
+    
+            marker_7865f233a9484cd56490a8c99c8529c8.bindTooltip(
+                `<div>
+                     United Motors Garage
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5088a70508df44d2f9c1a0f13d8e914e = L.marker(
+                [6.9465989, 79.8779513],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_eff81586de9ba8e3f1d79b19fc79862d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5088a70508df44d2f9c1a0f13d8e914e.setIcon(icon_eff81586de9ba8e3f1d79b19fc79862d);
+        
+    
+        var popup_ca4a04225a8dc8777bc0b7dd2f207e98 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45297357bfdc9c0ddac0d5ef4c97b1a0 = $(`<div id="html_45297357bfdc9c0ddac0d5ef4c97b1a0" style="width: 100.0%; height: 100.0%;">wheelsmart</div>`)[0];
+                popup_ca4a04225a8dc8777bc0b7dd2f207e98.setContent(html_45297357bfdc9c0ddac0d5ef4c97b1a0);
+            
+        
+
+        marker_5088a70508df44d2f9c1a0f13d8e914e.bindPopup(popup_ca4a04225a8dc8777bc0b7dd2f207e98)
+        ;
+
+        
+    
+    
+            marker_5088a70508df44d2f9c1a0f13d8e914e.bindTooltip(
+                `<div>
+                     wheelsmart
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_28a6d83770bbe4b95805ab39bcad98f5 = L.marker(
+                [6.8495466, 79.9166418],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_f55ff80148f0a17490d1788ec930b76e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_28a6d83770bbe4b95805ab39bcad98f5.setIcon(icon_f55ff80148f0a17490d1788ec930b76e);
+        
+    
+        var popup_4eeb625534a2aa8fdb208c9ffed095a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1acfea595318c3654cd46f43afcb77e9 = $(`<div id="html_1acfea595318c3654cd46f43afcb77e9" style="width: 100.0%; height: 100.0%;">Dammika Engineers (Pvt) Ltd</div>`)[0];
+                popup_4eeb625534a2aa8fdb208c9ffed095a7.setContent(html_1acfea595318c3654cd46f43afcb77e9);
+            
+        
+
+        marker_28a6d83770bbe4b95805ab39bcad98f5.bindPopup(popup_4eeb625534a2aa8fdb208c9ffed095a7)
+        ;
+
+        
+    
+    
+            marker_28a6d83770bbe4b95805ab39bcad98f5.bindTooltip(
+                `<div>
+                     Dammika Engineers (Pvt) Ltd
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_df5ac62bdb312645f65441b2fac3e7b6 = L.marker(
+                [6.8734922, 79.8827808],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_fb710c7880d4642595f37b9221bb34c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_df5ac62bdb312645f65441b2fac3e7b6.setIcon(icon_fb710c7880d4642595f37b9221bb34c1);
+        
+    
+        var popup_6bd0506a594d04fcfba0c5f1cd733fd4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4eaa7288eb1b3861854fd06f9521c4d5 = $(`<div id="html_4eaa7288eb1b3861854fd06f9521c4d5" style="width: 100.0%; height: 100.0%;">Matara Garage Ltd</div>`)[0];
+                popup_6bd0506a594d04fcfba0c5f1cd733fd4.setContent(html_4eaa7288eb1b3861854fd06f9521c4d5);
+            
+        
+
+        marker_df5ac62bdb312645f65441b2fac3e7b6.bindPopup(popup_6bd0506a594d04fcfba0c5f1cd733fd4)
+        ;
+
+        
+    
+    
+            marker_df5ac62bdb312645f65441b2fac3e7b6.bindTooltip(
+                `<div>
+                     Matara Garage Ltd
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a6f346be892260e1748d5fe26672bd3e = L.marker(
+                [6.8566007, 79.891185],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_4d46cdfe212ae6ad8a09254dc8a71e6f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a6f346be892260e1748d5fe26672bd3e.setIcon(icon_4d46cdfe212ae6ad8a09254dc8a71e6f);
+        
+    
+        var popup_2d6e5bc8061cbe98783bb953069d5f7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e4f6e5f5b1399e3a4801e90f9d3a23a = $(`<div id="html_0e4f6e5f5b1399e3a4801e90f9d3a23a" style="width: 100.0%; height: 100.0%;">Mazna Motors</div>`)[0];
+                popup_2d6e5bc8061cbe98783bb953069d5f7f.setContent(html_0e4f6e5f5b1399e3a4801e90f9d3a23a);
+            
+        
+
+        marker_a6f346be892260e1748d5fe26672bd3e.bindPopup(popup_2d6e5bc8061cbe98783bb953069d5f7f)
+        ;
+
+        
+    
+    
+            marker_a6f346be892260e1748d5fe26672bd3e.bindTooltip(
+                `<div>
+                     Mazna Motors
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_17791aeb3cb356281437ba5cdf5ad484 = L.marker(
+                [6.8539792, 79.9144273],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_31f31b192865404289a981330ac2307f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_17791aeb3cb356281437ba5cdf5ad484.setIcon(icon_31f31b192865404289a981330ac2307f);
+        
+    
+        var popup_86ca8d24fa5641105c8284f59b315e61 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4c2d9ef46f04f4e15b840e5304e80b5 = $(`<div id="html_e4c2d9ef46f04f4e15b840e5304e80b5" style="width: 100.0%; height: 100.0%;">Toyota Lanka Service Station - Maharagama</div>`)[0];
+                popup_86ca8d24fa5641105c8284f59b315e61.setContent(html_e4c2d9ef46f04f4e15b840e5304e80b5);
+            
+        
+
+        marker_17791aeb3cb356281437ba5cdf5ad484.bindPopup(popup_86ca8d24fa5641105c8284f59b315e61)
+        ;
+
+        
+    
+    
+            marker_17791aeb3cb356281437ba5cdf5ad484.bindTooltip(
+                `<div>
+                     Toyota Lanka Service Station - Maharagama
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0a037dc960f54a17999876f8bcb2172d = L.marker(
+                [6.8157047, 79.8770665],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_88b350d7ae2b3e467c3e3e3e8b705779 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0a037dc960f54a17999876f8bcb2172d.setIcon(icon_88b350d7ae2b3e467c3e3e3e8b705779);
+        
+    
+        var popup_165898c78c848f1ef686bbe4d8692e19 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09a7ed5dec87472c5368dc352aa8128a = $(`<div id="html_09a7ed5dec87472c5368dc352aa8128a" style="width: 100.0%; height: 100.0%;">Toyota Lanka</div>`)[0];
+                popup_165898c78c848f1ef686bbe4d8692e19.setContent(html_09a7ed5dec87472c5368dc352aa8128a);
+            
+        
+
+        marker_0a037dc960f54a17999876f8bcb2172d.bindPopup(popup_165898c78c848f1ef686bbe4d8692e19)
+        ;
+
+        
+    
+    
+            marker_0a037dc960f54a17999876f8bcb2172d.bindTooltip(
+                `<div>
+                     Toyota Lanka
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a1b6a6d83e3ef4f478d2597359c77df0 = L.marker(
+                [6.975136, 79.8880594],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_23091ea9f6675d6502489a2abc4b4264 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a1b6a6d83e3ef4f478d2597359c77df0.setIcon(icon_23091ea9f6675d6502489a2abc4b4264);
+        
+    
+        var popup_09ce30b73ee1f5ff46c564b16ab56c13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_78c98ccac6cc7e239fcc4831d6763c84 = $(`<div id="html_78c98ccac6cc7e239fcc4831d6763c84" style="width: 100.0%; height: 100.0%;">Senok Work Shop</div>`)[0];
+                popup_09ce30b73ee1f5ff46c564b16ab56c13.setContent(html_78c98ccac6cc7e239fcc4831d6763c84);
+            
+        
+
+        marker_a1b6a6d83e3ef4f478d2597359c77df0.bindPopup(popup_09ce30b73ee1f5ff46c564b16ab56c13)
+        ;
+
+        
+    
+    
+            marker_a1b6a6d83e3ef4f478d2597359c77df0.bindTooltip(
+                `<div>
+                     Senok Work Shop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_464c0360bc925c4339306b8c397c7df2 = L.marker(
+                [6.9049744, 79.9014039],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_0f0f3ce9e2d4cfc3f4333fa001214eb0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_464c0360bc925c4339306b8c397c7df2.setIcon(icon_0f0f3ce9e2d4cfc3f4333fa001214eb0);
+        
+    
+        var popup_e77532b5eb58194ec92b0d597dcad996 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90fc504bc9f3f46ed848e5c420d8723c = $(`<div id="html_90fc504bc9f3f46ed848e5c420d8723c" style="width: 100.0%; height: 100.0%;">AMW Services Centre</div>`)[0];
+                popup_e77532b5eb58194ec92b0d597dcad996.setContent(html_90fc504bc9f3f46ed848e5c420d8723c);
+            
+        
+
+        marker_464c0360bc925c4339306b8c397c7df2.bindPopup(popup_e77532b5eb58194ec92b0d597dcad996)
+        ;
+
+        
+    
+    
+            marker_464c0360bc925c4339306b8c397c7df2.bindTooltip(
+                `<div>
+                     AMW Services Centre
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_523d00a3e1b40244623dd1d30f8a7ff0 = L.marker(
+                [6.9614726, 79.8860907],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_4da4671955cb442d93f356b261d3de77 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_523d00a3e1b40244623dd1d30f8a7ff0.setIcon(icon_4da4671955cb442d93f356b261d3de77);
+        
+    
+        var popup_fa81a892bfb7dd73d75fac39dee1d4a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5abb5abe93fef3ec38978e1f921a98f2 = $(`<div id="html_5abb5abe93fef3ec38978e1f921a98f2" style="width: 100.0%; height: 100.0%;">AMW</div>`)[0];
+                popup_fa81a892bfb7dd73d75fac39dee1d4a6.setContent(html_5abb5abe93fef3ec38978e1f921a98f2);
+            
+        
+
+        marker_523d00a3e1b40244623dd1d30f8a7ff0.bindPopup(popup_fa81a892bfb7dd73d75fac39dee1d4a6)
+        ;
+
+        
+    
+    
+            marker_523d00a3e1b40244623dd1d30f8a7ff0.bindTooltip(
+                `<div>
+                     AMW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a96b1935233091878d2e72b51ce23fad = L.marker(
+                [6.9324645, 79.8893547],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_9753f6ef5b55d4035c24e145ef3dd98e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a96b1935233091878d2e72b51ce23fad.setIcon(icon_9753f6ef5b55d4035c24e145ef3dd98e);
+        
+    
+        var popup_2856626e1623cd0b7493a9081c3f527e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b4f573e859934ba1a60a03b277110a0 = $(`<div id="html_6b4f573e859934ba1a60a03b277110a0" style="width: 100.0%; height: 100.0%;">Not Specified</div>`)[0];
+                popup_2856626e1623cd0b7493a9081c3f527e.setContent(html_6b4f573e859934ba1a60a03b277110a0);
+            
+        
+
+        marker_a96b1935233091878d2e72b51ce23fad.bindPopup(popup_2856626e1623cd0b7493a9081c3f527e)
+        ;
+
+        
+    
+    
+            marker_a96b1935233091878d2e72b51ce23fad.bindTooltip(
+                `<div>
+                     Not Specified
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_88bcb07a90b86180605a3ef8bbdbf46f = L.marker(
+                [6.8596512, 79.8993772],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_83c7fa82c4d820424a6f6cf2936d1bc2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_88bcb07a90b86180605a3ef8bbdbf46f.setIcon(icon_83c7fa82c4d820424a6f6cf2936d1bc2);
+        
+    
+        var popup_cfe389554ac6ec5adcb5fd97ca047679 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d913ca1c5d12a3e27ad3975edfb47f08 = $(`<div id="html_d913ca1c5d12a3e27ad3975edfb47f08" style="width: 100.0%; height: 100.0%;">Eranga Motors</div>`)[0];
+                popup_cfe389554ac6ec5adcb5fd97ca047679.setContent(html_d913ca1c5d12a3e27ad3975edfb47f08);
+            
+        
+
+        marker_88bcb07a90b86180605a3ef8bbdbf46f.bindPopup(popup_cfe389554ac6ec5adcb5fd97ca047679)
+        ;
+
+        
+    
+    
+            marker_88bcb07a90b86180605a3ef8bbdbf46f.bindTooltip(
+                `<div>
+                     Eranga Motors
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ced25bfb96b95022de5d5d7441c6d9ee = L.marker(
+                [6.9270925, 79.8465968],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_28172d1231771700e14e86abe504d9ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ced25bfb96b95022de5d5d7441c6d9ee.setIcon(icon_28172d1231771700e14e86abe504d9ec);
+        
+    
+        var popup_f1186c642f814b2b5b9d93e8fa1d7e1c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f54eaaf0e9cc640dab95a7311023054e = $(`<div id="html_f54eaaf0e9cc640dab95a7311023054e" style="width: 100.0%; height: 100.0%;">Automobile Association of Ceylon</div>`)[0];
+                popup_f1186c642f814b2b5b9d93e8fa1d7e1c.setContent(html_f54eaaf0e9cc640dab95a7311023054e);
+            
+        
+
+        marker_ced25bfb96b95022de5d5d7441c6d9ee.bindPopup(popup_f1186c642f814b2b5b9d93e8fa1d7e1c)
+        ;
+
+        
+    
+    
+            marker_ced25bfb96b95022de5d5d7441c6d9ee.bindTooltip(
+                `<div>
+                     Automobile Association of Ceylon
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_704dfc8064e6ac4a0e86b601d25ac82e = L.marker(
+                [6.8415721, 79.9045027],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_495b405e8aba35e921fce4cf7a40ffad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_704dfc8064e6ac4a0e86b601d25ac82e.setIcon(icon_495b405e8aba35e921fce4cf7a40ffad);
+        
+    
+        var popup_b7568cadc686c29ee062927a25095621 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df0bea688177f6d783e4a91c028753dd = $(`<div id="html_df0bea688177f6d783e4a91c028753dd" style="width: 100.0%; height: 100.0%;">ADVAN CAR AUDIO</div>`)[0];
+                popup_b7568cadc686c29ee062927a25095621.setContent(html_df0bea688177f6d783e4a91c028753dd);
+            
+        
+
+        marker_704dfc8064e6ac4a0e86b601d25ac82e.bindPopup(popup_b7568cadc686c29ee062927a25095621)
+        ;
+
+        
+    
+    
+            marker_704dfc8064e6ac4a0e86b601d25ac82e.bindTooltip(
+                `<div>
+                     ADVAN CAR AUDIO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_398271ab6619588b6d29bac91fe26242 = L.marker(
+                [6.9237873, 79.8615806],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_c71f7e9be3e6a18b4f7c573b2f67e492 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_398271ab6619588b6d29bac91fe26242.setIcon(icon_c71f7e9be3e6a18b4f7c573b2f67e492);
+        
+    
+        var popup_47ed989cc0f27b6bbc6609b03327c699 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1836c1350227afac26d658b24635d8e8 = $(`<div id="html_1836c1350227afac26d658b24635d8e8" style="width: 100.0%; height: 100.0%;">Mag City</div>`)[0];
+                popup_47ed989cc0f27b6bbc6609b03327c699.setContent(html_1836c1350227afac26d658b24635d8e8);
+            
+        
+
+        marker_398271ab6619588b6d29bac91fe26242.bindPopup(popup_47ed989cc0f27b6bbc6609b03327c699)
+        ;
+
+        
+    
+    
+            marker_398271ab6619588b6d29bac91fe26242.bindTooltip(
+                `<div>
+                     Mag City
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a6916ea3be7b6da008361d0bdc795de4 = L.marker(
+                [6.846703, 79.9709794],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_49f387967ff364c7816c907471a04b3d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a6916ea3be7b6da008361d0bdc795de4.setIcon(icon_49f387967ff364c7816c907471a04b3d);
+        
+    
+        var popup_a4590aa7f64742e5c135bc5acbc496dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d14c4d5425bd62f82db4c19a1a2d42f = $(`<div id="html_8d14c4d5425bd62f82db4c19a1a2d42f" style="width: 100.0%; height: 100.0%;">AutoZone</div>`)[0];
+                popup_a4590aa7f64742e5c135bc5acbc496dd.setContent(html_8d14c4d5425bd62f82db4c19a1a2d42f);
+            
+        
+
+        marker_a6916ea3be7b6da008361d0bdc795de4.bindPopup(popup_a4590aa7f64742e5c135bc5acbc496dd)
+        ;
+
+        
+    
+    
+            marker_a6916ea3be7b6da008361d0bdc795de4.bindTooltip(
+                `<div>
+                     AutoZone
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bf4e63312455dbd2c337354b9f3b7bf2 = L.marker(
+                [6.9154356, 79.8578465],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_9be26409af4244c2b2dcf27e4200eea3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bf4e63312455dbd2c337354b9f3b7bf2.setIcon(icon_9be26409af4244c2b2dcf27e4200eea3);
+        
+    
+        var popup_7043bfca2886bd5d0e3cbac7e6bb9173 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c8449123d3ee1479675c22d43cfa90d = $(`<div id="html_8c8449123d3ee1479675c22d43cfa90d" style="width: 100.0%; height: 100.0%;">Janashakthi Auto Centre</div>`)[0];
+                popup_7043bfca2886bd5d0e3cbac7e6bb9173.setContent(html_8c8449123d3ee1479675c22d43cfa90d);
+            
+        
+
+        marker_bf4e63312455dbd2c337354b9f3b7bf2.bindPopup(popup_7043bfca2886bd5d0e3cbac7e6bb9173)
+        ;
+
+        
+    
+    
+            marker_bf4e63312455dbd2c337354b9f3b7bf2.bindTooltip(
+                `<div>
+                     Janashakthi Auto Centre
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b253da55df5f490ec6def48fed165793 = L.marker(
+                [6.8549953, 79.9136734],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_2c09323be8467872921fea684a726370 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b253da55df5f490ec6def48fed165793.setIcon(icon_2c09323be8467872921fea684a726370);
+        
+    
+        var popup_bf4caf07bec4597685222680157c408f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22a38579b5888ffb02d7b57f455dd979 = $(`<div id="html_22a38579b5888ffb02d7b57f455dd979" style="width: 100.0%; height: 100.0%;">Sampath Spare Parts Shop</div>`)[0];
+                popup_bf4caf07bec4597685222680157c408f.setContent(html_22a38579b5888ffb02d7b57f455dd979);
+            
+        
+
+        marker_b253da55df5f490ec6def48fed165793.bindPopup(popup_bf4caf07bec4597685222680157c408f)
+        ;
+
+        
+    
+    
+            marker_b253da55df5f490ec6def48fed165793.bindTooltip(
+                `<div>
+                     Sampath Spare Parts Shop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b4b5a7590a26f607bfa00544b5990d6d = L.marker(
+                [6.8552821, 79.9137338],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_ee8b123b6e7616ae3a28b7338c02f7b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b4b5a7590a26f607bfa00544b5990d6d.setIcon(icon_ee8b123b6e7616ae3a28b7338c02f7b4);
+        
+    
+        var popup_f7616b8a7d6f196fa7515120eee28a89 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37c7271314b4e397d023ee3ca17fe3bb = $(`<div id="html_37c7271314b4e397d023ee3ca17fe3bb" style="width: 100.0%; height: 100.0%;">Not Specified</div>`)[0];
+                popup_f7616b8a7d6f196fa7515120eee28a89.setContent(html_37c7271314b4e397d023ee3ca17fe3bb);
+            
+        
+
+        marker_b4b5a7590a26f607bfa00544b5990d6d.bindPopup(popup_f7616b8a7d6f196fa7515120eee28a89)
+        ;
+
+        
+    
+    
+            marker_b4b5a7590a26f607bfa00544b5990d6d.bindTooltip(
+                `<div>
+                     Not Specified
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5b8795459681b2a4d626c9f66da1bfc6 = L.marker(
+                [6.9028834, 79.9120994],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_bb00523afc0ecddf58b9f3b9bccfc0e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5b8795459681b2a4d626c9f66da1bfc6.setIcon(icon_bb00523afc0ecddf58b9f3b9bccfc0e7);
+        
+    
+        var popup_dbf6e8ef07bf84e1a699875c208c5ca3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b885c73142a588be4fbf7c3a6bd1a751 = $(`<div id="html_b885c73142a588be4fbf7c3a6bd1a751" style="width: 100.0%; height: 100.0%;">Marina Shock Absorbers</div>`)[0];
+                popup_dbf6e8ef07bf84e1a699875c208c5ca3.setContent(html_b885c73142a588be4fbf7c3a6bd1a751);
+            
+        
+
+        marker_5b8795459681b2a4d626c9f66da1bfc6.bindPopup(popup_dbf6e8ef07bf84e1a699875c208c5ca3)
+        ;
+
+        
+    
+    
+            marker_5b8795459681b2a4d626c9f66da1bfc6.bindTooltip(
+                `<div>
+                     Marina Shock Absorbers
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ac56b7c157805f505708873cb14a36ff = L.marker(
+                [6.9048209, 79.9513896],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_9d978f192939d58443c0a0191092a4e4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ac56b7c157805f505708873cb14a36ff.setIcon(icon_9d978f192939d58443c0a0191092a4e4);
+        
+    
+        var popup_ad07002d10d7f3b54ee9ec8ff56ee258 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11cb27e3a946be3595ee550946014ebd = $(`<div id="html_11cb27e3a946be3595ee550946014ebd" style="width: 100.0%; height: 100.0%;">Perera Wheel Alignment Service</div>`)[0];
+                popup_ad07002d10d7f3b54ee9ec8ff56ee258.setContent(html_11cb27e3a946be3595ee550946014ebd);
+            
+        
+
+        marker_ac56b7c157805f505708873cb14a36ff.bindPopup(popup_ad07002d10d7f3b54ee9ec8ff56ee258)
+        ;
+
+        
+    
+    
+            marker_ac56b7c157805f505708873cb14a36ff.bindTooltip(
+                `<div>
+                     Perera Wheel Alignment Service
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6c427fe537ac2e3d6c828b820b2e38c0 = L.marker(
+                [6.8742311, 79.9532069],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_575f660145ee489a9a75b6eb1cdb19c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6c427fe537ac2e3d6c828b820b2e38c0.setIcon(icon_575f660145ee489a9a75b6eb1cdb19c6);
+        
+    
+        var popup_c28a42518f5f5bab86d6dd4fee0cb062 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4238b18aeade29f88d9f20759f4710a = $(`<div id="html_d4238b18aeade29f88d9f20759f4710a" style="width: 100.0%; height: 100.0%;">Ajith Motors</div>`)[0];
+                popup_c28a42518f5f5bab86d6dd4fee0cb062.setContent(html_d4238b18aeade29f88d9f20759f4710a);
+            
+        
+
+        marker_6c427fe537ac2e3d6c828b820b2e38c0.bindPopup(popup_c28a42518f5f5bab86d6dd4fee0cb062)
+        ;
+
+        
+    
+    
+            marker_6c427fe537ac2e3d6c828b820b2e38c0.bindTooltip(
+                `<div>
+                     Ajith Motors
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_345420a7b9be9dff12dd0d15f3edcf80 = L.marker(
+                [6.8667943, 79.9108148],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_0948b7e930d09ee9acce3e5509e83ab3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_345420a7b9be9dff12dd0d15f3edcf80.setIcon(icon_0948b7e930d09ee9acce3e5509e83ab3);
+        
+    
+        var popup_7ae71a8dff30ff976bbbea9a8881be91 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6940e56485de269e4fad3ebcfff5203f = $(`<div id="html_6940e56485de269e4fad3ebcfff5203f" style="width: 100.0%; height: 100.0%;">Laugfs Eco-Sri Emission Test Service</div>`)[0];
+                popup_7ae71a8dff30ff976bbbea9a8881be91.setContent(html_6940e56485de269e4fad3ebcfff5203f);
+            
+        
+
+        marker_345420a7b9be9dff12dd0d15f3edcf80.bindPopup(popup_7ae71a8dff30ff976bbbea9a8881be91)
+        ;
+
+        
+    
+    
+            marker_345420a7b9be9dff12dd0d15f3edcf80.bindTooltip(
+                `<div>
+                     Laugfs Eco-Sri Emission Test Service
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2fd766ff6a049088148792eace839adc = L.marker(
+                [6.9508711, 79.8736817],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_bd3d56129894d1787d64a6ddf28d2317 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2fd766ff6a049088148792eace839adc.setIcon(icon_bd3d56129894d1787d64a6ddf28d2317);
+        
+    
+        var popup_8690d34c49b8d0f40191c20f729f63dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a10c443edc8af9dde1c56e942209ee7 = $(`<div id="html_5a10c443edc8af9dde1c56e942209ee7" style="width: 100.0%; height: 100.0%;">Edirisinghe Brothers</div>`)[0];
+                popup_8690d34c49b8d0f40191c20f729f63dd.setContent(html_5a10c443edc8af9dde1c56e942209ee7);
+            
+        
+
+        marker_2fd766ff6a049088148792eace839adc.bindPopup(popup_8690d34c49b8d0f40191c20f729f63dd)
+        ;
+
+        
+    
+    
+            marker_2fd766ff6a049088148792eace839adc.bindTooltip(
+                `<div>
+                     Edirisinghe Brothers
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e160eb46de934e859312768c8aaa334a = L.marker(
+                [6.9680567, 79.9021786],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_3de446bb5c57eb5f17469ffff96ee63d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e160eb46de934e859312768c8aaa334a.setIcon(icon_3de446bb5c57eb5f17469ffff96ee63d);
+        
+    
+        var popup_e873020f17c0cca6dd628ad0f331eeea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c26080b1522219f934d420fbafcf622 = $(`<div id="html_6c26080b1522219f934d420fbafcf622" style="width: 100.0%; height: 100.0%;">Micro Cars Workshop</div>`)[0];
+                popup_e873020f17c0cca6dd628ad0f331eeea.setContent(html_6c26080b1522219f934d420fbafcf622);
+            
+        
+
+        marker_e160eb46de934e859312768c8aaa334a.bindPopup(popup_e873020f17c0cca6dd628ad0f331eeea)
+        ;
+
+        
+    
+    
+            marker_e160eb46de934e859312768c8aaa334a.bindTooltip(
+                `<div>
+                     Micro Cars Workshop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d232dd4834de0bb168091eed6fa079dc = L.marker(
+                [6.9230361, 79.8642342],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_324d9c33ed57a9aefb06b24c03be2e59 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d232dd4834de0bb168091eed6fa079dc.setIcon(icon_324d9c33ed57a9aefb06b24c03be2e59);
+        
+    
+        var popup_a18ae7f7a4c544baf2655b764ef5a86e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_242f2512d8e7fdcda0a2162c78678346 = $(`<div id="html_242f2512d8e7fdcda0a2162c78678346" style="width: 100.0%; height: 100.0%;">Arabian Motors</div>`)[0];
+                popup_a18ae7f7a4c544baf2655b764ef5a86e.setContent(html_242f2512d8e7fdcda0a2162c78678346);
+            
+        
+
+        marker_d232dd4834de0bb168091eed6fa079dc.bindPopup(popup_a18ae7f7a4c544baf2655b764ef5a86e)
+        ;
+
+        
+    
+    
+            marker_d232dd4834de0bb168091eed6fa079dc.bindTooltip(
+                `<div>
+                     Arabian Motors
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bc32da1cad46e2c93a9f12c4b2395b3a = L.marker(
+                [6.9230882, 79.8628237],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_35c6c73f992b1920514fc6264ce2277a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bc32da1cad46e2c93a9f12c4b2395b3a.setIcon(icon_35c6c73f992b1920514fc6264ce2277a);
+        
+    
+        var popup_b2f1ca9202e625e0e2d527ea9e887505 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6bcc66f1798d2f7a7f7c6732708f4c8 = $(`<div id="html_b6bcc66f1798d2f7a7f7c6732708f4c8" style="width: 100.0%; height: 100.0%;">Not Specified</div>`)[0];
+                popup_b2f1ca9202e625e0e2d527ea9e887505.setContent(html_b6bcc66f1798d2f7a7f7c6732708f4c8);
+            
+        
+
+        marker_bc32da1cad46e2c93a9f12c4b2395b3a.bindPopup(popup_b2f1ca9202e625e0e2d527ea9e887505)
+        ;
+
+        
+    
+    
+            marker_bc32da1cad46e2c93a9f12c4b2395b3a.bindTooltip(
+                `<div>
+                     Not Specified
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a956326b9a8c6410049c584541c5ade9 = L.marker(
+                [6.9314465, 79.8652452],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_19cfcf2ebf82d452b9e3ca1723b0aa1e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a956326b9a8c6410049c584541c5ade9.setIcon(icon_19cfcf2ebf82d452b9e3ca1723b0aa1e);
+        
+    
+        var popup_93515693dca4f9701aa43b82f968d44c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2018a557d0c4d67eae73490616d1904 = $(`<div id="html_c2018a557d0c4d67eae73490616d1904" style="width: 100.0%; height: 100.0%;">Toyota Lanka</div>`)[0];
+                popup_93515693dca4f9701aa43b82f968d44c.setContent(html_c2018a557d0c4d67eae73490616d1904);
+            
+        
+
+        marker_a956326b9a8c6410049c584541c5ade9.bindPopup(popup_93515693dca4f9701aa43b82f968d44c)
+        ;
+
+        
+    
+    
+            marker_a956326b9a8c6410049c584541c5ade9.bindTooltip(
+                `<div>
+                     Toyota Lanka
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5d316ad9d9c0fc64f94bfff5f2a28fc8 = L.marker(
+                [6.9272703, 79.8611084],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_4e18745d917ebc9c77484ec95eaa908d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5d316ad9d9c0fc64f94bfff5f2a28fc8.setIcon(icon_4e18745d917ebc9c77484ec95eaa908d);
+        
+    
+        var popup_591895feab9632ab9c9ce86544e1350e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97bd91a6d30b2302931be99100599024 = $(`<div id="html_97bd91a6d30b2302931be99100599024" style="width: 100.0%; height: 100.0%;">Not Specified</div>`)[0];
+                popup_591895feab9632ab9c9ce86544e1350e.setContent(html_97bd91a6d30b2302931be99100599024);
+            
+        
+
+        marker_5d316ad9d9c0fc64f94bfff5f2a28fc8.bindPopup(popup_591895feab9632ab9c9ce86544e1350e)
+        ;
+
+        
+    
+    
+            marker_5d316ad9d9c0fc64f94bfff5f2a28fc8.bindTooltip(
+                `<div>
+                     Not Specified
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4e1060414374e8d5ec360d95298c1d7c = L.marker(
+                [6.9634568, 79.8960963],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_5830e6fe671bc49a73af7864211c4f1e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4e1060414374e8d5ec360d95298c1d7c.setIcon(icon_5830e6fe671bc49a73af7864211c4f1e);
+        
+    
+        var popup_d1092fff0d47789021e430537af1192b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d965c915d75bd6990560b2c68c96b93f = $(`<div id="html_d965c915d75bd6990560b2c68c96b93f" style="width: 100.0%; height: 100.0%;">Not Specified</div>`)[0];
+                popup_d1092fff0d47789021e430537af1192b.setContent(html_d965c915d75bd6990560b2c68c96b93f);
+            
+        
+
+        marker_4e1060414374e8d5ec360d95298c1d7c.bindPopup(popup_d1092fff0d47789021e430537af1192b)
+        ;
+
+        
+    
+    
+            marker_4e1060414374e8d5ec360d95298c1d7c.bindTooltip(
+                `<div>
+                     Not Specified
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2e91b9572fdfd8aac60ade45cebe4b1f = L.marker(
+                [6.8469088, 79.9968286],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_fcac3c157b8f10f8a4c621004fe97f7f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2e91b9572fdfd8aac60ade45cebe4b1f.setIcon(icon_fcac3c157b8f10f8a4c621004fe97f7f);
+        
+    
+        var popup_df7be1cb991eab8a45568b9679146028 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_495ca2462d33523c344d063fabfc4961 = $(`<div id="html_495ca2462d33523c344d063fabfc4961" style="width: 100.0%; height: 100.0%;">Not Specified</div>`)[0];
+                popup_df7be1cb991eab8a45568b9679146028.setContent(html_495ca2462d33523c344d063fabfc4961);
+            
+        
+
+        marker_2e91b9572fdfd8aac60ade45cebe4b1f.bindPopup(popup_df7be1cb991eab8a45568b9679146028)
+        ;
+
+        
+    
+    
+            marker_2e91b9572fdfd8aac60ade45cebe4b1f.bindTooltip(
+                `<div>
+                     Not Specified
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0486617d1a48333c79686faf71d85ee7 = L.marker(
+                [6.9191254, 79.8618212],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_c2c132e12a43e9a33f433d1c5a8ce856 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0486617d1a48333c79686faf71d85ee7.setIcon(icon_c2c132e12a43e9a33f433d1c5a8ce856);
+        
+    
+        var popup_e25851035bd17585601ffcb130a685e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_502417159ba91149d63722a0284d55a4 = $(`<div id="html_502417159ba91149d63722a0284d55a4" style="width: 100.0%; height: 100.0%;">General Auto Works</div>`)[0];
+                popup_e25851035bd17585601ffcb130a685e4.setContent(html_502417159ba91149d63722a0284d55a4);
+            
+        
+
+        marker_0486617d1a48333c79686faf71d85ee7.bindPopup(popup_e25851035bd17585601ffcb130a685e4)
+        ;
+
+        
+    
+    
+            marker_0486617d1a48333c79686faf71d85ee7.bindTooltip(
+                `<div>
+                     General Auto Works
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_70e8de896c0a20499b9719df36c980c5 = L.marker(
+                [6.9233733, 79.8678975],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_7e7f6ca6c5f28990c2c5fc70c9ddaaea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_70e8de896c0a20499b9719df36c980c5.setIcon(icon_7e7f6ca6c5f28990c2c5fc70c9ddaaea);
+        
+    
+        var popup_faaa8ed3a64b504a7d2db65ee423527b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_505e455fba77c00ac77cfad8ca26d498 = $(`<div id="html_505e455fba77c00ac77cfad8ca26d498" style="width: 100.0%; height: 100.0%;">Stafford Motor's Service centre</div>`)[0];
+                popup_faaa8ed3a64b504a7d2db65ee423527b.setContent(html_505e455fba77c00ac77cfad8ca26d498);
+            
+        
+
+        marker_70e8de896c0a20499b9719df36c980c5.bindPopup(popup_faaa8ed3a64b504a7d2db65ee423527b)
+        ;
+
+        
+    
+    
+            marker_70e8de896c0a20499b9719df36c980c5.bindTooltip(
+                `<div>
+                     Stafford Motor's Service centre
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7b255f72465db35bf02ada7a2214f003 = L.marker(
+                [6.7073228, 79.9507447],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_a64b951424af1eba599a39029a58c82a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7b255f72465db35bf02ada7a2214f003.setIcon(icon_a64b951424af1eba599a39029a58c82a);
+        
+    
+        var popup_fda9caa9e3856ba274e895ef1536df90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ff8df49194098c5d4b13f46a696e2b0 = $(`<div id="html_8ff8df49194098c5d4b13f46a696e2b0" style="width: 100.0%; height: 100.0%;">Not Specified</div>`)[0];
+                popup_fda9caa9e3856ba274e895ef1536df90.setContent(html_8ff8df49194098c5d4b13f46a696e2b0);
+            
+        
+
+        marker_7b255f72465db35bf02ada7a2214f003.bindPopup(popup_fda9caa9e3856ba274e895ef1536df90)
+        ;
+
+        
+    
+    
+            marker_7b255f72465db35bf02ada7a2214f003.bindTooltip(
+                `<div>
+                     Not Specified
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d5d5a5b8f430d8b734e56f1524493e1c = L.marker(
+                [6.9854905, 79.8886804],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_b52c8e916e9f1722ddb6ea7fb1cfeda6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d5d5a5b8f430d8b734e56f1524493e1c.setIcon(icon_b52c8e916e9f1722ddb6ea7fb1cfeda6);
+        
+    
+        var popup_34a889b13a99b7905bdea9ac0f5546a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9db1b653f2461b8c89092918c198fb2 = $(`<div id="html_d9db1b653f2461b8c89092918c198fb2" style="width: 100.0%; height: 100.0%;">Toyota Lanka (Accident Repair)</div>`)[0];
+                popup_34a889b13a99b7905bdea9ac0f5546a8.setContent(html_d9db1b653f2461b8c89092918c198fb2);
+            
+        
+
+        marker_d5d5a5b8f430d8b734e56f1524493e1c.bindPopup(popup_34a889b13a99b7905bdea9ac0f5546a8)
+        ;
+
+        
+    
+    
+            marker_d5d5a5b8f430d8b734e56f1524493e1c.bindTooltip(
+                `<div>
+                     Toyota Lanka (Accident Repair)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ac0dec479956e2633f96b354572b63e4 = L.marker(
+                [6.9633338, 79.8707094],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_e9c05cc154304c42a9495af9fb44b3cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ac0dec479956e2633f96b354572b63e4.setIcon(icon_e9c05cc154304c42a9495af9fb44b3cd);
+        
+    
+        var popup_2e966d695f7d865dbc7539fbdf66eccd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5e7b849d5e00403ca23f47f8c1b0712 = $(`<div id="html_f5e7b849d5e00403ca23f47f8c1b0712" style="width: 100.0%; height: 100.0%;">Drive Green</div>`)[0];
+                popup_2e966d695f7d865dbc7539fbdf66eccd.setContent(html_f5e7b849d5e00403ca23f47f8c1b0712);
+            
+        
+
+        marker_ac0dec479956e2633f96b354572b63e4.bindPopup(popup_2e966d695f7d865dbc7539fbdf66eccd)
+        ;
+
+        
+    
+    
+            marker_ac0dec479956e2633f96b354572b63e4.bindTooltip(
+                `<div>
+                     Drive Green
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_293483a7361cf5966e14536cdfc5679c = L.marker(
+                [6.9038326, 79.9502371],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_7993a8bb3f84218490e55e7c648239bd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_293483a7361cf5966e14536cdfc5679c.setIcon(icon_7993a8bb3f84218490e55e7c648239bd);
+        
+    
+        var popup_06102a5006383429bde96403b55ab11d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee150981f8cf9680971c5c1e685268d3 = $(`<div id="html_ee150981f8cf9680971c5c1e685268d3" style="width: 100.0%; height: 100.0%;">Wasantha Motors</div>`)[0];
+                popup_06102a5006383429bde96403b55ab11d.setContent(html_ee150981f8cf9680971c5c1e685268d3);
+            
+        
+
+        marker_293483a7361cf5966e14536cdfc5679c.bindPopup(popup_06102a5006383429bde96403b55ab11d)
+        ;
+
+        
+    
+    
+            marker_293483a7361cf5966e14536cdfc5679c.bindTooltip(
+                `<div>
+                     Wasantha Motors
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1fa9e40faa6e061cca9d3f6bc2178086 = L.marker(
+                [6.9083239, 79.9409448],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_82a2943fe8c734ec0c0311dcbed9bac0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1fa9e40faa6e061cca9d3f6bc2178086.setIcon(icon_82a2943fe8c734ec0c0311dcbed9bac0);
+        
+    
+        var popup_63bf5543d7f9f4193c56777184b567f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_595609a79f9ea1afd1f9ef1d70fd927b = $(`<div id="html_595609a79f9ea1afd1f9ef1d70fd927b" style="width: 100.0%; height: 100.0%;">Not Specified</div>`)[0];
+                popup_63bf5543d7f9f4193c56777184b567f5.setContent(html_595609a79f9ea1afd1f9ef1d70fd927b);
+            
+        
+
+        marker_1fa9e40faa6e061cca9d3f6bc2178086.bindPopup(popup_63bf5543d7f9f4193c56777184b567f5)
+        ;
+
+        
+    
+    
+            marker_1fa9e40faa6e061cca9d3f6bc2178086.bindTooltip(
+                `<div>
+                     Not Specified
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5b7c84fa8ffc16d596cbf7d5c34f121e = L.marker(
+                [6.9230685, 79.8576512],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_f2680908c3d5cb3d373098aaa4cb2636 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5b7c84fa8ffc16d596cbf7d5c34f121e.setIcon(icon_f2680908c3d5cb3d373098aaa4cb2636);
+        
+    
+        var popup_f1441983624b912e34d2b1364b055923 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2dcd52aa4159988c54b2c5e8ab9a8589 = $(`<div id="html_2dcd52aa4159988c54b2c5e8ab9a8589" style="width: 100.0%; height: 100.0%;">Mr Paint</div>`)[0];
+                popup_f1441983624b912e34d2b1364b055923.setContent(html_2dcd52aa4159988c54b2c5e8ab9a8589);
+            
+        
+
+        marker_5b7c84fa8ffc16d596cbf7d5c34f121e.bindPopup(popup_f1441983624b912e34d2b1364b055923)
+        ;
+
+        
+    
+    
+            marker_5b7c84fa8ffc16d596cbf7d5c34f121e.bindTooltip(
+                `<div>
+                     Mr Paint
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ec80611934f5320e049981b538a3f72d = L.marker(
+                [6.8733523, 79.9373555],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_ab4d9958c9b0c0c5bdd270b7d431293b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ec80611934f5320e049981b538a3f72d.setIcon(icon_ab4d9958c9b0c0c5bdd270b7d431293b);
+        
+    
+        var popup_a289a289cb8fe2b0645508de05c77064 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9340c09226d29be56bb6c55dd4ea4a24 = $(`<div id="html_9340c09226d29be56bb6c55dd4ea4a24" style="width: 100.0%; height: 100.0%;">S.N.D. Auto Service</div>`)[0];
+                popup_a289a289cb8fe2b0645508de05c77064.setContent(html_9340c09226d29be56bb6c55dd4ea4a24);
+            
+        
+
+        marker_ec80611934f5320e049981b538a3f72d.bindPopup(popup_a289a289cb8fe2b0645508de05c77064)
+        ;
+
+        
+    
+    
+            marker_ec80611934f5320e049981b538a3f72d.bindTooltip(
+                `<div>
+                     S.N.D. Auto Service
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_624dcf02273ac9fd1bd41a44a0471ff8 = L.marker(
+                [6.9198653, 79.8589362],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_a8e93c02a019bde6ce270bb5908d5712 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_624dcf02273ac9fd1bd41a44a0471ff8.setIcon(icon_a8e93c02a019bde6ce270bb5908d5712);
+        
+    
+        var popup_73a4cef87d5a84f825a954c6fd9222e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d76e9becc5ae287fa62ec5c48d413db = $(`<div id="html_6d76e9becc5ae287fa62ec5c48d413db" style="width: 100.0%; height: 100.0%;">Autodrome</div>`)[0];
+                popup_73a4cef87d5a84f825a954c6fd9222e6.setContent(html_6d76e9becc5ae287fa62ec5c48d413db);
+            
+        
+
+        marker_624dcf02273ac9fd1bd41a44a0471ff8.bindPopup(popup_73a4cef87d5a84f825a954c6fd9222e6)
+        ;
+
+        
+    
+    
+            marker_624dcf02273ac9fd1bd41a44a0471ff8.bindTooltip(
+                `<div>
+                     Autodrome
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ff385bde3b6c5bd55c386e72db9acee4 = L.marker(
+                [6.88728, 79.9323638],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_d26f8d451586145aab691b6c4ed45df3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ff385bde3b6c5bd55c386e72db9acee4.setIcon(icon_d26f8d451586145aab691b6c4ed45df3);
+        
+    
+        var popup_a16e90b69746105996d5842c90c253fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f9076c54df8166e77f5fcb85124724f = $(`<div id="html_1f9076c54df8166e77f5fcb85124724f" style="width: 100.0%; height: 100.0%;">Priyantha Motors</div>`)[0];
+                popup_a16e90b69746105996d5842c90c253fa.setContent(html_1f9076c54df8166e77f5fcb85124724f);
+            
+        
+
+        marker_ff385bde3b6c5bd55c386e72db9acee4.bindPopup(popup_a16e90b69746105996d5842c90c253fa)
+        ;
+
+        
+    
+    
+            marker_ff385bde3b6c5bd55c386e72db9acee4.bindTooltip(
+                `<div>
+                     Priyantha Motors
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e2199f4fbb07d39aab9e6d95f955520f = L.marker(
+                [6.8599716, 79.9142108],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_6cd9517f77eb4768f87e39a78e827eb8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e2199f4fbb07d39aab9e6d95f955520f.setIcon(icon_6cd9517f77eb4768f87e39a78e827eb8);
+        
+    
+        var popup_4b023e8355638d82574355eb5a4b6108 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33024f5574283e3c34427100e850ed6e = $(`<div id="html_33024f5574283e3c34427100e850ed6e" style="width: 100.0%; height: 100.0%;">U-Sri Engineers & Lorry Body Builders</div>`)[0];
+                popup_4b023e8355638d82574355eb5a4b6108.setContent(html_33024f5574283e3c34427100e850ed6e);
+            
+        
+
+        marker_e2199f4fbb07d39aab9e6d95f955520f.bindPopup(popup_4b023e8355638d82574355eb5a4b6108)
+        ;
+
+        
+    
+    
+            marker_e2199f4fbb07d39aab9e6d95f955520f.bindTooltip(
+                `<div>
+                     U-Sri Engineers & Lorry Body Builders
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0e4406d27bbc8a74f4d5b1c14390aeea = L.marker(
+                [6.7577056, 79.8990649],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_af0754f19dd99e8c7942339dcdde4c60 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0e4406d27bbc8a74f4d5b1c14390aeea.setIcon(icon_af0754f19dd99e8c7942339dcdde4c60);
+        
+    
+        var popup_cdb095523cfecca27b1136e325d7d295 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8391ad131ec1240ffe76f7d999fefa43 = $(`<div id="html_8391ad131ec1240ffe76f7d999fefa43" style="width: 100.0%; height: 100.0%;">Sumith Garage</div>`)[0];
+                popup_cdb095523cfecca27b1136e325d7d295.setContent(html_8391ad131ec1240ffe76f7d999fefa43);
+            
+        
+
+        marker_0e4406d27bbc8a74f4d5b1c14390aeea.bindPopup(popup_cdb095523cfecca27b1136e325d7d295)
+        ;
+
+        
+    
+    
+            marker_0e4406d27bbc8a74f4d5b1c14390aeea.bindTooltip(
+                `<div>
+                     Sumith Garage
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_12ddb4b27d1795107e8a112788f16f88 = L.marker(
+                [6.974806, 79.8764931],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_af4b7c5c2dc5e4e68b59d694b6d8f3ee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_12ddb4b27d1795107e8a112788f16f88.setIcon(icon_af4b7c5c2dc5e4e68b59d694b6d8f3ee);
+        
+    
+        var popup_11133578954840bbd2ad231f7a7c04b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8569496e4d6b5676a0ec3e0c0293bc88 = $(`<div id="html_8569496e4d6b5676a0ec3e0c0293bc88" style="width: 100.0%; height: 100.0%;">New Smart Service Center</div>`)[0];
+                popup_11133578954840bbd2ad231f7a7c04b8.setContent(html_8569496e4d6b5676a0ec3e0c0293bc88);
+            
+        
+
+        marker_12ddb4b27d1795107e8a112788f16f88.bindPopup(popup_11133578954840bbd2ad231f7a7c04b8)
+        ;
+
+        
+    
+    
+            marker_12ddb4b27d1795107e8a112788f16f88.bindTooltip(
+                `<div>
+                     New Smart Service Center
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_38ff052eae5d53ec818e5a9055a62b54 = L.marker(
+                [6.754217, 79.8995201],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_aed47b4161510e562923c508eb2b645a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_38ff052eae5d53ec818e5a9055a62b54.setIcon(icon_aed47b4161510e562923c508eb2b645a);
+        
+    
+        var popup_51b2a15dd15cc24a102012d0e4c843bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dedf3d60165c675671368b368dc941ba = $(`<div id="html_dedf3d60165c675671368b368dc941ba" style="width: 100.0%; height: 100.0%;">Auto Hafeel</div>`)[0];
+                popup_51b2a15dd15cc24a102012d0e4c843bf.setContent(html_dedf3d60165c675671368b368dc941ba);
+            
+        
+
+        marker_38ff052eae5d53ec818e5a9055a62b54.bindPopup(popup_51b2a15dd15cc24a102012d0e4c843bf)
+        ;
+
+        
+    
+    
+            marker_38ff052eae5d53ec818e5a9055a62b54.bindTooltip(
+                `<div>
+                     Auto Hafeel
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a3fdfc2092ea446e7684e5bee094d6a4 = L.marker(
+                [6.7521141, 79.9085433],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_a066d50b65c6b354850faf2db56d2aac = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a3fdfc2092ea446e7684e5bee094d6a4.setIcon(icon_a066d50b65c6b354850faf2db56d2aac);
+        
+    
+        var popup_f67d77e4a851c663df735560e3976fda = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7b41de27b35b4c1108f00bbd0bfd712 = $(`<div id="html_d7b41de27b35b4c1108f00bbd0bfd712" style="width: 100.0%; height: 100.0%;">Saman Auto Service</div>`)[0];
+                popup_f67d77e4a851c663df735560e3976fda.setContent(html_d7b41de27b35b4c1108f00bbd0bfd712);
+            
+        
+
+        marker_a3fdfc2092ea446e7684e5bee094d6a4.bindPopup(popup_f67d77e4a851c663df735560e3976fda)
+        ;
+
+        
+    
+    
+            marker_a3fdfc2092ea446e7684e5bee094d6a4.bindTooltip(
+                `<div>
+                     Saman Auto Service
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4c745ed127133b970207123b6fe746c9 = L.marker(
+                [6.8462641, 79.91668],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_e1139aa40afc5cb516e61b08e0fd47d7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4c745ed127133b970207123b6fe746c9.setIcon(icon_e1139aa40afc5cb516e61b08e0fd47d7);
+        
+    
+        var popup_74fd31eb4cb83140b86b2f348db302c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d2927e0a693cd3b6c43fad6ef3027c9 = $(`<div id="html_5d2927e0a693cd3b6c43fad6ef3027c9" style="width: 100.0%; height: 100.0%;">Mahesh Motors</div>`)[0];
+                popup_74fd31eb4cb83140b86b2f348db302c3.setContent(html_5d2927e0a693cd3b6c43fad6ef3027c9);
+            
+        
+
+        marker_4c745ed127133b970207123b6fe746c9.bindPopup(popup_74fd31eb4cb83140b86b2f348db302c3)
+        ;
+
+        
+    
+    
+            marker_4c745ed127133b970207123b6fe746c9.bindTooltip(
+                `<div>
+                     Mahesh Motors
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a4cda09728edf7f9887d9b63911d7339 = L.marker(
+                [6.8424532, 79.9183283],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_2b952682823831aa4c5a27fea67a79c9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a4cda09728edf7f9887d9b63911d7339.setIcon(icon_2b952682823831aa4c5a27fea67a79c9);
+        
+    
+        var popup_70c5e8f2763641ab483f9ffda421c562 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b61ace0f230bf2461989dbcd1d157755 = $(`<div id="html_b61ace0f230bf2461989dbcd1d157755" style="width: 100.0%; height: 100.0%;">Luck Mithuro Organization</div>`)[0];
+                popup_70c5e8f2763641ab483f9ffda421c562.setContent(html_b61ace0f230bf2461989dbcd1d157755);
+            
+        
+
+        marker_a4cda09728edf7f9887d9b63911d7339.bindPopup(popup_70c5e8f2763641ab483f9ffda421c562)
+        ;
+
+        
+    
+    
+            marker_a4cda09728edf7f9887d9b63911d7339.bindTooltip(
+                `<div>
+                     Luck Mithuro Organization
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fee29c4edc0e4a58ff6e80d2ca4950aa = L.marker(
+                [6.842604, 79.9167612],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_78a44e52f9bd358e18710a6e2d1f2128 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fee29c4edc0e4a58ff6e80d2ca4950aa.setIcon(icon_78a44e52f9bd358e18710a6e2d1f2128);
+        
+    
+        var popup_3e06990f16d61abbca200dff58696b93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a1d15adef08a4a8f999f31eead90c9e = $(`<div id="html_9a1d15adef08a4a8f999f31eead90c9e" style="width: 100.0%; height: 100.0%;">Hi- Tec Auto Engineers</div>`)[0];
+                popup_3e06990f16d61abbca200dff58696b93.setContent(html_9a1d15adef08a4a8f999f31eead90c9e);
+            
+        
+
+        marker_fee29c4edc0e4a58ff6e80d2ca4950aa.bindPopup(popup_3e06990f16d61abbca200dff58696b93)
+        ;
+
+        
+    
+    
+            marker_fee29c4edc0e4a58ff6e80d2ca4950aa.bindTooltip(
+                `<div>
+                     Hi- Tec Auto Engineers
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_89f4baea91ad903bde0e402eed855dcd = L.marker(
+                [6.8430961, 79.9158767],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_7deaa003521be2597f178bea9b5071be = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_89f4baea91ad903bde0e402eed855dcd.setIcon(icon_7deaa003521be2597f178bea9b5071be);
+        
+    
+        var popup_8459711894cd6da80231e56dfcd74a39 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c51d12686bb88510e2ab4a5e660a8af = $(`<div id="html_5c51d12686bb88510e2ab4a5e660a8af" style="width: 100.0%; height: 100.0%;">Royal Cabs & Rent a Car</div>`)[0];
+                popup_8459711894cd6da80231e56dfcd74a39.setContent(html_5c51d12686bb88510e2ab4a5e660a8af);
+            
+        
+
+        marker_89f4baea91ad903bde0e402eed855dcd.bindPopup(popup_8459711894cd6da80231e56dfcd74a39)
+        ;
+
+        
+    
+    
+            marker_89f4baea91ad903bde0e402eed855dcd.bindTooltip(
+                `<div>
+                     Royal Cabs & Rent a Car
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_035175089931af661f51b549314f2a38 = L.marker(
+                [6.8976724, 79.9061145],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_86db2ae649cc5c540f57145d13edd800 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_035175089931af661f51b549314f2a38.setIcon(icon_86db2ae649cc5c540f57145d13edd800);
+        
+    
+        var popup_3f841631ef5d26e3012de7e01195a785 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f144decf2fee390d8617a02eb90e86e = $(`<div id="html_3f144decf2fee390d8617a02eb90e86e" style="width: 100.0%; height: 100.0%;">Ref Engineers</div>`)[0];
+                popup_3f841631ef5d26e3012de7e01195a785.setContent(html_3f144decf2fee390d8617a02eb90e86e);
+            
+        
+
+        marker_035175089931af661f51b549314f2a38.bindPopup(popup_3f841631ef5d26e3012de7e01195a785)
+        ;
+
+        
+    
+    
+            marker_035175089931af661f51b549314f2a38.bindTooltip(
+                `<div>
+                     Ref Engineers
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dc8c75915e6bffb7401915785aa3e106 = L.marker(
+                [6.8889114, 79.9009537],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_5e12f0a6f6afed5b1179389705132758 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dc8c75915e6bffb7401915785aa3e106.setIcon(icon_5e12f0a6f6afed5b1179389705132758);
+        
+    
+        var popup_6aa495afae6d829026bd68e4484fa633 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ddeb095b8cc2086de4be21c8975706b7 = $(`<div id="html_ddeb095b8cc2086de4be21c8975706b7" style="width: 100.0%; height: 100.0%;">Leo's Paw Engineering</div>`)[0];
+                popup_6aa495afae6d829026bd68e4484fa633.setContent(html_ddeb095b8cc2086de4be21c8975706b7);
+            
+        
+
+        marker_dc8c75915e6bffb7401915785aa3e106.bindPopup(popup_6aa495afae6d829026bd68e4484fa633)
+        ;
+
+        
+    
+    
+            marker_dc8c75915e6bffb7401915785aa3e106.bindTooltip(
+                `<div>
+                     Leo's Paw Engineering
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5359c68f2091378a9204fe5dd4603061 = L.marker(
+                [6.8762743, 79.8923625],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_099646e03d7295c07f58c9ba605e625a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5359c68f2091378a9204fe5dd4603061.setIcon(icon_099646e03d7295c07f58c9ba605e625a);
+        
+    
+        var popup_6127bcd925b8579d5e122ab45ffb6c01 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_650e37ebea9c74bd5ba5a097b2b7501a = $(`<div id="html_650e37ebea9c74bd5ba5a097b2b7501a" style="width: 100.0%; height: 100.0%;">Toyota Genuine Parts</div>`)[0];
+                popup_6127bcd925b8579d5e122ab45ffb6c01.setContent(html_650e37ebea9c74bd5ba5a097b2b7501a);
+            
+        
+
+        marker_5359c68f2091378a9204fe5dd4603061.bindPopup(popup_6127bcd925b8579d5e122ab45ffb6c01)
+        ;
+
+        
+    
+    
+            marker_5359c68f2091378a9204fe5dd4603061.bindTooltip(
+                `<div>
+                     Toyota Genuine Parts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_363877df17adf98a23adbfc51ede3118 = L.marker(
+                [6.8759713, 79.8907379],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_c9a57afef2b8b618e03c216cdf4c2001 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_363877df17adf98a23adbfc51ede3118.setIcon(icon_c9a57afef2b8b618e03c216cdf4c2001);
+        
+    
+        var popup_a373361b6e07ff2843dcef2eba9848a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61d32602212bb0d5d92ab3dc791b35eb = $(`<div id="html_61d32602212bb0d5d92ab3dc791b35eb" style="width: 100.0%; height: 100.0%;">Dunlop</div>`)[0];
+                popup_a373361b6e07ff2843dcef2eba9848a4.setContent(html_61d32602212bb0d5d92ab3dc791b35eb);
+            
+        
+
+        marker_363877df17adf98a23adbfc51ede3118.bindPopup(popup_a373361b6e07ff2843dcef2eba9848a4)
+        ;
+
+        
+    
+    
+            marker_363877df17adf98a23adbfc51ede3118.bindTooltip(
+                `<div>
+                     Dunlop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8fd1356d8fc6e9b2abff58aebcebb8d9 = L.marker(
+                [6.8819423, 79.8993467],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_637500ea6a2e1d7b0fed1f632218635d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8fd1356d8fc6e9b2abff58aebcebb8d9.setIcon(icon_637500ea6a2e1d7b0fed1f632218635d);
+        
+    
+        var popup_9988cfaf5a9a215cc7b4cf8805a1be9c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bdb05e1d43d37609ffdebeb714712148 = $(`<div id="html_bdb05e1d43d37609ffdebeb714712148" style="width: 100.0%; height: 100.0%;">Sehandu Motors</div>`)[0];
+                popup_9988cfaf5a9a215cc7b4cf8805a1be9c.setContent(html_bdb05e1d43d37609ffdebeb714712148);
+            
+        
+
+        marker_8fd1356d8fc6e9b2abff58aebcebb8d9.bindPopup(popup_9988cfaf5a9a215cc7b4cf8805a1be9c)
+        ;
+
+        
+    
+    
+            marker_8fd1356d8fc6e9b2abff58aebcebb8d9.bindTooltip(
+                `<div>
+                     Sehandu Motors
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_926e9b8a925251c03b86f1e9113634d8 = L.marker(
+                [6.8781339, 79.9002161],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_13ea7fe69821a11a69a5b55fe62fdd3f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_926e9b8a925251c03b86f1e9113634d8.setIcon(icon_13ea7fe69821a11a69a5b55fe62fdd3f);
+        
+    
+        var popup_b32f3eb6cfc9259abe0f62843b9d9949 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_212fc900b9276999f61a6c753c20ffdc = $(`<div id="html_212fc900b9276999f61a6c753c20ffdc" style="width: 100.0%; height: 100.0%;">Magic Auto Touch Car Repaire</div>`)[0];
+                popup_b32f3eb6cfc9259abe0f62843b9d9949.setContent(html_212fc900b9276999f61a6c753c20ffdc);
+            
+        
+
+        marker_926e9b8a925251c03b86f1e9113634d8.bindPopup(popup_b32f3eb6cfc9259abe0f62843b9d9949)
+        ;
+
+        
+    
+    
+            marker_926e9b8a925251c03b86f1e9113634d8.bindTooltip(
+                `<div>
+                     Magic Auto Touch Car Repaire
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1f3d19d2b71e40da5c9e714e51b2752a = L.marker(
+                [6.8892157, 79.8809266],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_dfca12b3d81dc193ce7b337e3cba90d7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1f3d19d2b71e40da5c9e714e51b2752a.setIcon(icon_dfca12b3d81dc193ce7b337e3cba90d7);
+        
+    
+        var popup_e2385c4d6710c751c90b037bb708330c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_419722cde6f3ee7957d26231ab3ddfdc = $(`<div id="html_419722cde6f3ee7957d26231ab3ddfdc" style="width: 100.0%; height: 100.0%;">Renault Service Center</div>`)[0];
+                popup_e2385c4d6710c751c90b037bb708330c.setContent(html_419722cde6f3ee7957d26231ab3ddfdc);
+            
+        
+
+        marker_1f3d19d2b71e40da5c9e714e51b2752a.bindPopup(popup_e2385c4d6710c751c90b037bb708330c)
+        ;
+
+        
+    
+    
+            marker_1f3d19d2b71e40da5c9e714e51b2752a.bindTooltip(
+                `<div>
+                     Renault Service Center
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_69cf970478859a284e26cd988ad8db66 = L.marker(
+                [6.8944013, 79.8772754],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_b04dc0dd742573df195b3e72cab2ca94 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_69cf970478859a284e26cd988ad8db66.setIcon(icon_b04dc0dd742573df195b3e72cab2ca94);
+        
+    
+        var popup_e1ae27f7f3d844a0a2c14d1ba483e013 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93683475c836426f7269b52e67c886ff = $(`<div id="html_93683475c836426f7269b52e67c886ff" style="width: 100.0%; height: 100.0%;">Sterling After Care</div>`)[0];
+                popup_e1ae27f7f3d844a0a2c14d1ba483e013.setContent(html_93683475c836426f7269b52e67c886ff);
+            
+        
+
+        marker_69cf970478859a284e26cd988ad8db66.bindPopup(popup_e1ae27f7f3d844a0a2c14d1ba483e013)
+        ;
+
+        
+    
+    
+            marker_69cf970478859a284e26cd988ad8db66.bindTooltip(
+                `<div>
+                     Sterling After Care
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7111607925734eb5f0785553b2cc651a = L.marker(
+                [6.8825403, 79.9146871],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_8502e6af363c661d565d77630e690990 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7111607925734eb5f0785553b2cc651a.setIcon(icon_8502e6af363c661d565d77630e690990);
+        
+    
+        var popup_361f924a1ad92c3de19751ee66ee38b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_232adf029eb91c64529e9c7e7a375399 = $(`<div id="html_232adf029eb91c64529e9c7e7a375399" style="width: 100.0%; height: 100.0%;">R.D.S. Motor Engineers</div>`)[0];
+                popup_361f924a1ad92c3de19751ee66ee38b7.setContent(html_232adf029eb91c64529e9c7e7a375399);
+            
+        
+
+        marker_7111607925734eb5f0785553b2cc651a.bindPopup(popup_361f924a1ad92c3de19751ee66ee38b7)
+        ;
+
+        
+    
+    
+            marker_7111607925734eb5f0785553b2cc651a.bindTooltip(
+                `<div>
+                     R.D.S. Motor Engineers
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6e914fd41032d1dae34826881d499dd1 = L.marker(
+                [6.8963043, 79.858088],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_a172cdab8a2c99d785ece4ebc5caed27 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6e914fd41032d1dae34826881d499dd1.setIcon(icon_a172cdab8a2c99d785ece4ebc5caed27);
+        
+    
+        var popup_91b2a5a31d138968a3583d66862dc9ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0a10cd850dd9367f2b32cc033f68764 = $(`<div id="html_c0a10cd850dd9367f2b32cc033f68764" style="width: 100.0%; height: 100.0%;">Not Specified</div>`)[0];
+                popup_91b2a5a31d138968a3583d66862dc9ba.setContent(html_c0a10cd850dd9367f2b32cc033f68764);
+            
+        
+
+        marker_6e914fd41032d1dae34826881d499dd1.bindPopup(popup_91b2a5a31d138968a3583d66862dc9ba)
+        ;
+
+        
+    
+    
+            marker_6e914fd41032d1dae34826881d499dd1.bindTooltip(
+                `<div>
+                     Not Specified
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_72e30e53bfe67a6fa25b54dfed8faf73 = L.marker(
+                [6.8747445, 79.9329407],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_484b65f36d9751f8e9d79aa80b2e8df3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_72e30e53bfe67a6fa25b54dfed8faf73.setIcon(icon_484b65f36d9751f8e9d79aa80b2e8df3);
+        
+    
+        var popup_8ae0499172b0f845b1709cef1e907ad4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5769c36a326441f77e3963cec22916ee = $(`<div id="html_5769c36a326441f77e3963cec22916ee" style="width: 100.0%; height: 100.0%;">Auto Miraj</div>`)[0];
+                popup_8ae0499172b0f845b1709cef1e907ad4.setContent(html_5769c36a326441f77e3963cec22916ee);
+            
+        
+
+        marker_72e30e53bfe67a6fa25b54dfed8faf73.bindPopup(popup_8ae0499172b0f845b1709cef1e907ad4)
+        ;
+
+        
+    
+    
+            marker_72e30e53bfe67a6fa25b54dfed8faf73.bindTooltip(
+                `<div>
+                     Auto Miraj
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_10224ea8565e2ca502362479a2924d0e = L.marker(
+                [6.8741335, 79.9334582],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_9b2783733b80c596ad2c988a43b06575 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_10224ea8565e2ca502362479a2924d0e.setIcon(icon_9b2783733b80c596ad2c988a43b06575);
+        
+    
+        var popup_8aae50c81e19943ceadc9458ed0590e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4792d5bcb892e8622d0bf1a577917ff = $(`<div id="html_d4792d5bcb892e8622d0bf1a577917ff" style="width: 100.0%; height: 100.0%;">Thiwanka Motors</div>`)[0];
+                popup_8aae50c81e19943ceadc9458ed0590e9.setContent(html_d4792d5bcb892e8622d0bf1a577917ff);
+            
+        
+
+        marker_10224ea8565e2ca502362479a2924d0e.bindPopup(popup_8aae50c81e19943ceadc9458ed0590e9)
+        ;
+
+        
+    
+    
+            marker_10224ea8565e2ca502362479a2924d0e.bindTooltip(
+                `<div>
+                     Thiwanka Motors
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_492c8e65995ca20c6b7b05040c8f9059 = L.marker(
+                [6.7896849, 79.9561458],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_34fa806d7b8369ba891458a4ee09722d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_492c8e65995ca20c6b7b05040c8f9059.setIcon(icon_34fa806d7b8369ba891458a4ee09722d);
+        
+    
+        var popup_25cccaa381a21b096805909d5cb6fe67 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8be26adbbabbdc1cb0a6f05aad2ba140 = $(`<div id="html_8be26adbbabbdc1cb0a6f05aad2ba140" style="width: 100.0%; height: 100.0%;">Janaka Radiator Engineering Company</div>`)[0];
+                popup_25cccaa381a21b096805909d5cb6fe67.setContent(html_8be26adbbabbdc1cb0a6f05aad2ba140);
+            
+        
+
+        marker_492c8e65995ca20c6b7b05040c8f9059.bindPopup(popup_25cccaa381a21b096805909d5cb6fe67)
+        ;
+
+        
+    
+    
+            marker_492c8e65995ca20c6b7b05040c8f9059.bindTooltip(
+                `<div>
+                     Janaka Radiator Engineering Company
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_67397d859df04d5f59ed1ea0203084c9 = L.marker(
+                [6.7928137, 79.9461733],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_a88a3a625d0ca687a85ddb3550597a5d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_67397d859df04d5f59ed1ea0203084c9.setIcon(icon_a88a3a625d0ca687a85ddb3550597a5d);
+        
+    
+        var popup_c45cd7fc51aefa82357cd528c2cfa5d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6f6ccf3538c4c8981e6dadf8af12f01 = $(`<div id="html_a6f6ccf3538c4c8981e6dadf8af12f01" style="width: 100.0%; height: 100.0%;">Goldway Motors</div>`)[0];
+                popup_c45cd7fc51aefa82357cd528c2cfa5d1.setContent(html_a6f6ccf3538c4c8981e6dadf8af12f01);
+            
+        
+
+        marker_67397d859df04d5f59ed1ea0203084c9.bindPopup(popup_c45cd7fc51aefa82357cd528c2cfa5d1)
+        ;
+
+        
+    
+    
+            marker_67397d859df04d5f59ed1ea0203084c9.bindTooltip(
+                `<div>
+                     Goldway Motors
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0a41729536efdb17902a520c1928fa14 = L.marker(
+                [6.8650415, 79.9422549],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_21cca8fc66d587fc84901f30a6088336 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0a41729536efdb17902a520c1928fa14.setIcon(icon_21cca8fc66d587fc84901f30a6088336);
+        
+    
+        var popup_b6ce4583e937823a9d922d6974fea1a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77dea894b9ae1f5a59469fb4e0049a78 = $(`<div id="html_77dea894b9ae1f5a59469fb4e0049a78" style="width: 100.0%; height: 100.0%;">Power Tyre & Battery Service</div>`)[0];
+                popup_b6ce4583e937823a9d922d6974fea1a5.setContent(html_77dea894b9ae1f5a59469fb4e0049a78);
+            
+        
+
+        marker_0a41729536efdb17902a520c1928fa14.bindPopup(popup_b6ce4583e937823a9d922d6974fea1a5)
+        ;
+
+        
+    
+    
+            marker_0a41729536efdb17902a520c1928fa14.bindTooltip(
+                `<div>
+                     Power Tyre & Battery Service
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_926a3abb0704d1c7ef57c70fcc6df54c = L.marker(
+                [6.895657, 79.9234034],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_f40a2d9adaac6d1e624b5ccf77dadac4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_926a3abb0704d1c7ef57c70fcc6df54c.setIcon(icon_f40a2d9adaac6d1e624b5ccf77dadac4);
+        
+    
+        var popup_7eb3626968076f5edbb53813a6834c40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0660790a62ca5bb4e8db7b098d1892ed = $(`<div id="html_0660790a62ca5bb4e8db7b098d1892ed" style="width: 100.0%; height: 100.0%;">DP Motors</div>`)[0];
+                popup_7eb3626968076f5edbb53813a6834c40.setContent(html_0660790a62ca5bb4e8db7b098d1892ed);
+            
+        
+
+        marker_926a3abb0704d1c7ef57c70fcc6df54c.bindPopup(popup_7eb3626968076f5edbb53813a6834c40)
+        ;
+
+        
+    
+    
+            marker_926a3abb0704d1c7ef57c70fcc6df54c.bindTooltip(
+                `<div>
+                     DP Motors
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_842587b66d74235f0838fcb136c83357 = L.marker(
+                [6.975662, 79.8881096],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_17a54a744d5e12bac5c08574f1d23a98 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_842587b66d74235f0838fcb136c83357.setIcon(icon_17a54a744d5e12bac5c08574f1d23a98);
+        
+    
+        var popup_941c7d9a9cee5d3918e678148afe211e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd5bccb0ac46ec7aa1880b21d30194a5 = $(`<div id="html_cd5bccb0ac46ec7aa1880b21d30194a5" style="width: 100.0%; height: 100.0%;">Audi Colombo - Service Center</div>`)[0];
+                popup_941c7d9a9cee5d3918e678148afe211e.setContent(html_cd5bccb0ac46ec7aa1880b21d30194a5);
+            
+        
+
+        marker_842587b66d74235f0838fcb136c83357.bindPopup(popup_941c7d9a9cee5d3918e678148afe211e)
+        ;
+
+        
+    
+    
+            marker_842587b66d74235f0838fcb136c83357.bindTooltip(
+                `<div>
+                     Audi Colombo - Service Center
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ed000d4f3c3eab5e0caee8fd87a4bd64 = L.marker(
+                [6.9743252, 79.8875671],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_a698b8c94f85c7b0958bcc0633fe7969 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ed000d4f3c3eab5e0caee8fd87a4bd64.setIcon(icon_a698b8c94f85c7b0958bcc0633fe7969);
+        
+    
+        var popup_e31b296a9a33fcc3895dfbfbddb9ff5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1dca9124a97752afe7dc8a9bb49053c = $(`<div id="html_f1dca9124a97752afe7dc8a9bb49053c" style="width: 100.0%; height: 100.0%;">Eco Emissions Center</div>`)[0];
+                popup_e31b296a9a33fcc3895dfbfbddb9ff5e.setContent(html_f1dca9124a97752afe7dc8a9bb49053c);
+            
+        
+
+        marker_ed000d4f3c3eab5e0caee8fd87a4bd64.bindPopup(popup_e31b296a9a33fcc3895dfbfbddb9ff5e)
+        ;
+
+        
+    
+    
+            marker_ed000d4f3c3eab5e0caee8fd87a4bd64.bindTooltip(
+                `<div>
+                     Eco Emissions Center
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b561d1725b4774542d7973d09094b699 = L.marker(
+                [6.9717919, 79.8922254],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_8e1353636cd4d5016aa044c37d2167a0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b561d1725b4774542d7973d09094b699.setIcon(icon_8e1353636cd4d5016aa044c37d2167a0);
+        
+    
+        var popup_753ee7537080f466d91ab6b1adf62aca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b0337da983e7563930a71762564b277 = $(`<div id="html_2b0337da983e7563930a71762564b277" style="width: 100.0%; height: 100.0%;">Garage 161</div>`)[0];
+                popup_753ee7537080f466d91ab6b1adf62aca.setContent(html_2b0337da983e7563930a71762564b277);
+            
+        
+
+        marker_b561d1725b4774542d7973d09094b699.bindPopup(popup_753ee7537080f466d91ab6b1adf62aca)
+        ;
+
+        
+    
+    
+            marker_b561d1725b4774542d7973d09094b699.bindTooltip(
+                `<div>
+                     Garage 161
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8db5b1c94d6dd741d250de10e7c43c4d = L.marker(
+                [6.7946747, 79.9126832],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_2398eadab22e61733c190388a28a7107 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8db5b1c94d6dd741d250de10e7c43c4d.setIcon(icon_2398eadab22e61733c190388a28a7107);
+        
+    
+        var popup_24c5818b34c9b58c42eab041359f1382 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35ffd99787aa1bb7fe73902f649302a4 = $(`<div id="html_35ffd99787aa1bb7fe73902f649302a4" style="width: 100.0%; height: 100.0%;">Vehicle Repair Shop</div>`)[0];
+                popup_24c5818b34c9b58c42eab041359f1382.setContent(html_35ffd99787aa1bb7fe73902f649302a4);
+            
+        
+
+        marker_8db5b1c94d6dd741d250de10e7c43c4d.bindPopup(popup_24c5818b34c9b58c42eab041359f1382)
+        ;
+
+        
+    
+    
+            marker_8db5b1c94d6dd741d250de10e7c43c4d.bindTooltip(
+                `<div>
+                     Vehicle Repair Shop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_18a2399936eb139b7c27f31ccc1426ba = L.marker(
+                [6.9193724, 79.8731924],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_59f34eebec8dd6d7ac68a81f74479e5b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_18a2399936eb139b7c27f31ccc1426ba.setIcon(icon_59f34eebec8dd6d7ac68a81f74479e5b);
+        
+    
+        var popup_a4847e308f735083d245f39e59bc0e64 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e2dc6fe32e598951172807a8a03a356 = $(`<div id="html_0e2dc6fe32e598951172807a8a03a356" style="width: 100.0%; height: 100.0%;">Universal Battery Works</div>`)[0];
+                popup_a4847e308f735083d245f39e59bc0e64.setContent(html_0e2dc6fe32e598951172807a8a03a356);
+            
+        
+
+        marker_18a2399936eb139b7c27f31ccc1426ba.bindPopup(popup_a4847e308f735083d245f39e59bc0e64)
+        ;
+
+        
+    
+    
+            marker_18a2399936eb139b7c27f31ccc1426ba.bindTooltip(
+                `<div>
+                     Universal Battery Works
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a2b5ca912cab456e1e89a188980163ff = L.marker(
+                [6.9184475, 79.8607082],
+                {
+}
+            ).addTo(map_903a54c75dcc6107af5137bbfa2db058);
+        
+    
+            var icon_39892e9571a8442c6fefd316894b2e75 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a2b5ca912cab456e1e89a188980163ff.setIcon(icon_39892e9571a8442c6fefd316894b2e75);
+        
+    
+        var popup_530885cbccb36bf7749afc57f7d499c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_629283b7a3bf744083fd3ae5bf6b8b50 = $(`<div id="html_629283b7a3bf744083fd3ae5bf6b8b50" style="width: 100.0%; height: 100.0%;">Toyota Lanka - Hyde Park</div>`)[0];
+                popup_530885cbccb36bf7749afc57f7d499c1.setContent(html_629283b7a3bf744083fd3ae5bf6b8b50);
+            
+        
+
+        marker_a2b5ca912cab456e1e89a188980163ff.bindPopup(popup_530885cbccb36bf7749afc57f7d499c1)
+        ;
+
+        
+    
+    
+            marker_a2b5ca912cab456e1e89a188980163ff.bindTooltip(
+                `<div>
+                     Toyota Lanka - Hyde Park
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
