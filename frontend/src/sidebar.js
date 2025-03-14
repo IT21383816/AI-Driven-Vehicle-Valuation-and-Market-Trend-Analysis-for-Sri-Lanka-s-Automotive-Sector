@@ -16,16 +16,16 @@ const Sidebar = () => {
 
       <ul className="sidebar-menu">
         <li className="active">
-          <FaHome className="icon" /> Dashboard
+          <FaHome className="icon" /> Damage detection
         </li>
         <li>
           <FaChartLine className="icon" /> Market Trend
         </li>
         <li>
-          <FaDatabase className="icon" /> Data
+          <FaDatabase className="icon" /> Sustainability assessment
         </li>
         <li>
-          <MdOutlineAnalytics className="icon" /> Statistics
+          <MdOutlineAnalytics className="icon" /> Vehicle valuation
         </li>
         <li>
           <FaUsers className="icon" /> Team
