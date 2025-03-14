@@ -144,6 +144,32 @@ function DamagePrediction() {
         }
     }, []);
 
+    const downloadReport = async () => {
+        if (!prediction || repairShops.length === 0) {
+            alert("Please predict damage and fetch repair shops first!");
+            return;
+        }
+    
+        try {
+            const response = await axios.post('http://127.0.0.1:5000/generate_report', {
+                image_url: imagePreview, // Image preview URL
+                damage_type: prediction.predicted_damage,
+                repair_cost: prediction.estimated_repair_cost,
+                repair_shops: repairShops
+            }, { responseType: 'blob' });
+    
+            const url = window.URL.createObjectURL(new Blob([response.data]));
+            const link = document.createElement('a');
+            link.href = url;
+            link.setAttribute('download', 'vehicle_damage_report.pdf');
+            document.body.appendChild(link);
+            link.click();
+        } catch (error) {
+            console.error("Error generating report:", error);
+        }
+    };
+    
+
 
     return (
         <div
@@ -370,8 +396,8 @@ function DamagePrediction() {
                     {/* "Find Repair Shops" Button */}
                     <button onClick={fetchRepairShops} style={{ backgroundColor: '#007BFF', color: '#fff', padding: '10px 15px', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>
                             Find Nearby Repair Shops
-                        </button>
-                        <button onClick={fetchRepairShopMap} style={{
+                    </button>
+                    <button onClick={fetchRepairShopMap} style={{
                             backgroundColor: '#FF9800',
                             color: '#fff',
                             padding: '10px 15px',
@@ -379,9 +405,28 @@ function DamagePrediction() {
                             borderRadius: '5px',
                             cursor: 'pointer',
                             marginLeft: '10px',
-                        }}>
+                    }}>
                             View Repair Shops on Map
-                        </button>
+                    </button>
+
+                    {/* "Download Report" Button */}
+                    <button 
+                    onClick={downloadReport} 
+                    style={{ 
+                    backgroundColor: "#FF5722", 
+                    color: "#fff", 
+                    padding: '10px 15px', 
+                    fontSize: "16px",
+                    fontWeight: "bold",
+                    border: "none", 
+                    borderRadius: "8px", 
+                    cursor: "pointer",
+                    marginTop: "15px",
+                    marginLeft: "10px",
+                    transition: "0.3s ease",
+                }}>
+                📄 Download Report
+                </button>
                 </div>
             )}
 
