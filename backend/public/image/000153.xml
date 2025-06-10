@@ -1,0 +1,38 @@
+<annotation>
+	<folder>train2017</folder>
+	<filename>000153.jpg</filename>
+	<path>C:\Users\neth pc\Downloads\CarDD_release\CarDD_release\CarDD_COCO\train2017\000153.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1000</width>
+		<height>704</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>head_lamp</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>414</xmin>
+			<ymin>127</ymin>
+			<xmax>763</xmax>
+			<ymax>472</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>front_damage</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2</xmin>
+			<ymin>56</ymin>
+			<xmax>863</xmax>
+			<ymax>697</ymax>
+		</bndbox>
+	</object>
+</annotation>

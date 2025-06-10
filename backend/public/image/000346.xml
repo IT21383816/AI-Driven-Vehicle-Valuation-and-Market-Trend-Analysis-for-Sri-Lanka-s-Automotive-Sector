@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train2017</folder>
+	<filename>000346.jpg</filename>
+	<path>C:\Users\neth pc\Downloads\CarDD_release\CarDD_release\CarDD_COCO\train2017\000346.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1000</width>
+		<height>691</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tire_damage</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>353</xmin>
+			<ymin>152</ymin>
+			<xmax>947</xmax>
+			<ymax>668</ymax>
+		</bndbox>
+	</object>
+</annotation>

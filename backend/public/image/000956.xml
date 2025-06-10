@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train2017</folder>
+	<filename>000956.jpg</filename>
+	<path>D:\Downloads\CarDD_release\CarDD_release\CarDD_COCO\train2017\000956.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1000</width>
+		<height>579</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>glass_shatter</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>443</xmin>
+			<ymin>3</ymin>
+			<xmax>1000</xmax>
+			<ymax>484</ymax>
+		</bndbox>
+	</object>
+</annotation>

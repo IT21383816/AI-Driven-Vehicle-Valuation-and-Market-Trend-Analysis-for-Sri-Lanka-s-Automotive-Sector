@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train2017</folder>
+	<filename>000030.jpg</filename>
+	<path>C:\Users\neth pc\Downloads\CarDD_release\CarDD_release\CarDD_COCO\train2017\000030.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1000</width>
+		<height>823</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>door_scratch</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>244</xmin>
+			<ymin>140</ymin>
+			<xmax>958</xmax>
+			<ymax>689</ymax>
+		</bndbox>
+	</object>
+</annotation>
