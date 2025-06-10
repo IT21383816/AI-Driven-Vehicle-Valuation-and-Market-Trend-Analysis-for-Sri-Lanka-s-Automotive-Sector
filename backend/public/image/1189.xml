@@ -1,0 +1,26 @@
+<annotation>
+	<folder>image</folder>
+	<filename>1189.jpeg</filename>
+	<path>C:\Users\neth pc\Desktop\research\archive (1)\image\1189.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>224</width>
+		<height>224</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bumper_dent</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>19</xmin>
+			<ymin>24</ymin>
+			<xmax>119</xmax>
+			<ymax>180</ymax>
+		</bndbox>
+	</object>
+</annotation>
